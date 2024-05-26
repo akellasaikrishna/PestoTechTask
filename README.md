@@ -13,7 +13,7 @@
 - The server application can be run from the server folder by running the script *node server.js* (or) *nodemon server.js (if nodemon is installed)*. The backend application will be running on *port 3000* by default.
 
   **Backend Endpoints**
-    - create - http://localhost:5173/tasks/create - POST {title: '', description: '', status: '', created: ''}
-    - read - http://localhost:5173/tasks/getAllTasks - POST - {}
-    - update - http://localhost:5173/tasks/update - POST - {id: '', title: ''}
-    - delete - http://localhost:5173/tasks/delete - POST - {id: ''}
+    - create - http://localhost:3000/tasks/create - POST {title: '', description: '', status: '', created: ''}
+    - read - http://localhost:3000/tasks/getAllTasks - POST - {}
+    - update - http://localhost:3000/tasks/update - POST - {id: '', title: ''}
+    - delete - http://localhost:3000/tasks/delete - POST - {id: ''}
